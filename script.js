@@ -1,6 +1,6 @@
 
 const video = document.getElementById('video')
-console.log(window.getComputedStyle(video, null).getPropertyValue('width'))
+//console.log(window.getComputedStyle(video, null).getPropertyValue('width'))
 
 Promise.all([
   faceapi.nets.tinyFaceDetector.loadFromUri('/faceDetection/models'),
