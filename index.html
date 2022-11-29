@@ -8,6 +8,12 @@
   <script defer src="face-api.min.js"></script>
   <script defer src="script.js"></script>
   <style>
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      /* overflow: hidden; */
+    }
     body {
       margin: 0;
       padding: 0;
@@ -22,9 +28,14 @@
     canvas {
       position: absolute;
     }
+    span{
+      position: absolute;
+      z-index: -5;
+    }
   </style>
 </head>
 <body>
   <video id="video" autoplay muted></video>
+  <span>Loading...</span>
 </body>
 </html>
